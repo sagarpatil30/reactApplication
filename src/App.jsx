@@ -6,6 +6,9 @@ function App() {
     Hello react!!
     <div>
       <Posts/>
+      <div>
+        Hello
+      </div>
     </div>
     </>
   )
