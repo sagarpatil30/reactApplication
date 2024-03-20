@@ -4,7 +4,7 @@ function Posts() {
   return (
     <>
     <h2>
-    TEST POST
+    TEST POST IS COMING FROM THE COMPONENT
     </h2>
     </>
   )
