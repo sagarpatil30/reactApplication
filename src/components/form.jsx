@@ -1,18 +1,22 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
 
 function Form() {
-
-    function onchangeText(event){
-        console.log(event.target.value);
-    }
+  const [value, setValue] = useState("you can change me");
+  
+  function onchangeText(event) {
+    setValue(event.target.value);
+  }
+  
   return (
     <div>
-    <form action="" method="get">
+      <form>
         <label htmlFor="Name">Name</label>
         <input type="text" onChange={onchangeText} />
-    </form>
+      </form>
+      <p>{value}</p>
     </div>
-  )
+  );
 }
 
-export default Form
+export default Form;
