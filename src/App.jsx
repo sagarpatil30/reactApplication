@@ -3,10 +3,7 @@ import Posts from "./components/posts"
 function App() {
   return (
     <>
-      <Posts/>
-      <Posts/>
-      <Posts/>
-      <Posts/>
+      <Posts courseName={'MERN'}/>
     </>
   )
 }
